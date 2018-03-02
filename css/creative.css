@@ -21,6 +21,7 @@ hr {
 
 .typewrite {
   color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .pad-up {
@@ -244,7 +245,11 @@ header.masthead {
   text-align: center;
   color: white;
   /*background-image: url('http://markinternational.info/data/out/250/220885257-high-resolution-backgrounds-free-download.jpg');*/
-  background-image: url('http://www.skydivecity.com/wp-content/uploads/2015/02/cropped-skydive-for-free-charity-background.jpg');
+  /* background-image: url('http://www.skydivecity.com/wp-content/uploads/2015/02/cropped-skydive-for-free-charity-background.jpg'); */
+
+ 
+
+  
   
   background-position: center;
   -webkit-background-size: cover;
@@ -270,7 +275,7 @@ header.masthead .header-content .header-content-inner hr {
   margin: 30px auto;
 }
 header.masthead .header-content .header-content-inner p {
-  font-size: 16px;
+  font-size: 46px;
   font-weight: 300;
   margin-bottom: 50px;
   color: rgba(255, 255, 255, 0.7);
@@ -540,4 +545,7 @@ fieldset[disabled] .btn-primary:hover {
 
 .center {
   padding-top: 8rem;
+}
+.pt-5, .py-5 {
+  padding-top: 0rem!important;
 }
